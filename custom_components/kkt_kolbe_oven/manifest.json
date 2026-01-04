@@ -1,0 +1,12 @@
+{
+  "domain": "kkt_kolbe_oven",
+  "name": "KKT Kolbe Oven",
+  "codeowners": ["@krzenskjulian"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/krzenskjulian/kkt-kolbe-oven",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "requirements": ["tinytuya==1.14.0"],
+  "version": "1.0.0"
+}
