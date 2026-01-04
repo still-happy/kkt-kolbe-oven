@@ -1,0 +1,28 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "KKT Kolbe Backofen einrichten",
+        "description": "Geben Sie die Informationen Ihres Backofens ein. Diese finden Sie im Tuya Developer Portal.",
+        "data": {
+          "device_id": "Geräte-ID",
+          "local_key": "Local Key",
+          "ip_address": "IP-Adresse",
+          "name": "Name (optional)"
+        },
+        "data_description": {
+          "device_id": "Die eindeutige Geräte-ID aus dem Tuya Portal (z.B. {device_id_example})",
+          "local_key": "Der Local Key aus dem Tuya Portal (z.B. {local_key_example})",
+          "ip_address": "Die lokale IP-Adresse des Backofens (z.B. {ip_example})"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Verbindung zum Gerät fehlgeschlagen. Überprüfen Sie IP-Adresse, Device ID und Local Key.",
+      "unknown": "Ein unbekannter Fehler ist aufgetreten."
+    },
+    "abort": {
+      "already_configured": "Dieses Gerät ist bereits konfiguriert."
+    }
+  }
+}
