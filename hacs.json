@@ -1,0 +1,7 @@
+{
+  "name": "KKT Kolbe Oven",
+  "render_readme": true,
+  "domains": ["switch", "select", "number", "binary_sensor", "sensor"],
+  "iot_class": "Local Polling",
+  "homeassistant": "2024.1.0"
+}
