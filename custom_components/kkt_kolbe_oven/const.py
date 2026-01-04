@@ -8,28 +8,28 @@ CONF_DEVICE_ID = "device_id"
 CONF_LOCAL_KEY = "local_key"
 CONF_IP_ADDRESS = "ip_address"
 
-# Data Points (DPs)
-DP_SWITCH = "kg"
-DP_MODE = "wd"
-DP_TEMPERATURE = "dw"
-DP_TIME = "ds"
-DP_DOOR_STATE = "doorstate"
-DP_STATUS = "djs"
+# Data Points (DPs) - Using numeric IDs
+DP_SWITCH = "105"        # Power on/off
+DP_MODE = "101"          # Cooking program
+DP_TEMPERATURE = "102"   # Temperature
+DP_TIME = "103"          # Timer in minutes
+DP_DOOR_STATE = "106"    # Door state
+DP_STATUS = "104"        # Status
 
-# Cooking Programs
+# Cooking Programs (using format codes from device)
 COOKING_PROGRAMS = {
-    "1": "Auftauen",
-    "2": "Oberhitze Grill",
-    "3": "Unterhitze",
-    "4": "Unterhitze Umluft",
-    "5": "Umluft",
-    "6": "Ober-/Unterhitze Umluft",
-    "7": "Ober-/Unterhitze",
-    "8": "Oberhitze Grill Umluft",
-    "9": "Grillen",
-    "10": "Erhitzen",
-    "11": "Warmhalten",
-    "12": "Toasten",
+    "f1": "Auftauen",
+    "f2": "Oberhitze Grill",
+    "f3": "Unterhitze",
+    "f4": "Unterhitze Umluft",
+    "f5": "Umluft",
+    "f6": "Ober-/Unterhitze Umluft",
+    "f7": "Ober-/Unterhitze",
+    "f8": "Oberhitze Grill Umluft",
+    "f9": "Grillen",
+    "f10": "Erhitzen",
+    "f11": "Warmhalten",
+    "f12": "Toasten",
 }
 
 # Reverse mapping for program selection
